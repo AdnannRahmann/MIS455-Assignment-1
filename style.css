@@ -87,3 +87,6 @@ img{
 img:hover {
   transform: scale(1.05); /* Slight zoom-in on hover */
 }
+.image-container {
+  text-align: center; /* Center align text and inline elements */
+}
