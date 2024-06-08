@@ -51,3 +51,39 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  p {
+    font-family: 'Arial', sans-serif; /* Font family */
+    font-size: 18px; /* Font size */
+    color: #333; /* Text color */
+    line-height: 1.6; /* Line height for better readability */
+    margin: 20px 0; /* Vertical spacing between paragraphs */
+    padding: 10px 15px; /* Internal spacing within the paragraph */
+    background-color: #f9f9f9; /* Background color for a subtle highlight */
+    border-left: 4px solid #007BFF; /* Left border for a visual indicator */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+/* Optional: Hover effect */
+p:hover {
+    background-color: #f0f0f0; /* Slightly darker background on hover */
+}
+
+/* General image styling */
+img{
+  
+  width: 100%; /* Make the image responsive */
+  max-width: 600px; /* Limit the maximum width */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+  border: 3px solid #007BFF; /* Border around the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  margin: 20px 0; /* Vertical spacing around the image */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Optional: Hover effect */
+img:hover {
+  transform: scale(1.05); /* Slight zoom-in on hover */
+}
